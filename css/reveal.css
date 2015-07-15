@@ -83,8 +83,8 @@ body {
 
 .reveal h1 { font-size: 3.77em; }
 .reveal h2 { font-size: 2.11em;	}
-.reveal h3 { font-size: 1.55em;	}
-.reveal h4 { font-size: 1.25em;	}
+.reveal h3 { font-size: 1.25em;	}
+.reveal h4 { font-size: 1em;	}
 
 
 /*********************************************
@@ -237,18 +237,23 @@ body {
 	max-width: 90%;
 	max-height: 90%;
 }
-
+.reveal .mid-width img {
+	width: 75%;
+}
 .reveal .two-imgs img {
 	display: inline-block;
-	margin-left: 20px;
-	max-width: 80%;
-	max-height: 80%;
+	max-width: 49%;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	vertical-align: top;
 }
 .reveal .two-imgs.two-imgs-short img {
 	width: 46%;
 	margin-top: .5em;
-	vertical-align: top;
+	vertical-align: top;	
+}
+.reveal .three-imgs img {
+	width: 26%;
+	vertical-align: top;	
 }
 .reveal img.drop-shadow {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -282,9 +287,8 @@ body {
 .reveal ol,
 .reveal ul {
 	display: inline-block;
-
 	text-align: left;
-	margin: 0 0 1.5em 0;
+	width: 100%;
 }
 
 .reveal ol {
@@ -309,6 +313,21 @@ body {
 .reveal ol ul {
 	display: block;
 	margin-left: 40px;
+}
+
+.reveal .outline {
+	padding-left: 30%;
+}
+.reveal .resume {
+	padding-left: 25%;
+}
+.reveal .resume:nth-child(2) {
+	margin-bottom: 2em;
+}
+
+.reveal ul li,
+.reveal ol li {
+	font-size: .9em;
 }
 
 .reveal p {
@@ -586,7 +605,7 @@ body {
 	display: none;
 	position: absolute;
 	width: 100%;
-	padding: 20px 0px;
+	padding: 0px;
 
 	z-index: 10;
 	line-height: 1.2em;

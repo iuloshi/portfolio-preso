@@ -41,7 +41,9 @@ body {
   letter-spacing: 0em;
   text-transform: none;
   text-shadow: none; }
-
+.reveal h4 {
+  margin-bottom: .75em;
+}
 
 /*********************************************
  * LINKS
