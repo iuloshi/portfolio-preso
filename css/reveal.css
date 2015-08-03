@@ -265,6 +265,10 @@ body {
 	margin-top: 1.75em;
 }
 .reveal h1.intro {
+	font-family: 'Landmark Regular A', 'Landmark Regular B', Helvetica, Arial, sans-serif; 
+	font-weight: 400; 
+	font-style: normal;
+	letter-spacing: -.05em;
 	margin-bottom: .3em;
 	color: #82DBC7;
 }
