@@ -17,8 +17,8 @@ body {
 }
 
 .reveal {
-  font-family: 'Verlag A', 'Verlag B', Helvetica, Arial, sans-serif;
-  font-weight: 500; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
   font-style: normal;
   color: black; }
 
@@ -38,8 +38,8 @@ body {
 .reveal h6 {
   margin: 0 0 .5em 0;
   color: #A0A0A0;
-  font-family: 'Verlag A', 'Verlag B', Helvetica, Arial, sans-serif;
-  font-weight: 500; 
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
   font-style: normal; 
   line-height: 1em;
   letter-spacing: 0em;
