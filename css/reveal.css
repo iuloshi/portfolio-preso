@@ -81,10 +81,11 @@ body {
 	line-height: 1;
 }
 
-.reveal h1 { font-size: 3.77em; }
-.reveal h2 { font-size: 2.11em;	}
-.reveal h3 { font-size: 1.25em;	}
-.reveal h4 { font-size: 1em;	}
+.reveal h1 { font-size: 2.125em; }
+.reveal h2 { font-size: 1.5em;	}
+.reveal h3 { font-size: 1em;	}
+.reveal h4 { font-size: .75em;	}
+.reveal h5 { font-size: .65em;  }
 
 
 /*********************************************
@@ -258,19 +259,41 @@ body {
 .reveal img.drop-shadow {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-.reveal img#kerby {
-	border-radius: 125px;
-	-moz-border-radius: 125px;
-	-webkit-border-radius: 125px;
-	margin-top: 1.75em;
+.reveal h1 {
+	font-family: 'Abril Fatface', cursive; 
+	margin-bottom: .4em;
+	color: #0a0a0a;
 }
-.reveal h1.intro {
-	font-family: 'Poiret One', cursive; 
-	font-weight: 400; 
-	font-style: normal;
-	letter-spacing: -.05em;
-	margin-bottom: .3em;
-	color: #82DBC7;
+
+a {
+	text-decoration: none;
+	color: #0a0a0a;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.button {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: #fff;
+	color: #0a0a0a;
+	border: 1px solid #0a0a0a !important;
+	padding: .67rem 3rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.button:hover {
+	background-color: #0a0a0a;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button.button--small {
+	font-size: .67rem;
+	padding: 0.4rem .6rem;
 }
 
 /** Prevents layering issues in certain browser/transition combinations */
@@ -293,6 +316,8 @@ body {
 	display: inline-block;
 	text-align: left;
 	width: 100%;
+	font-family: 'Lora', serif;
+	font-size: 18px;
 }
 
 .reveal ol {
