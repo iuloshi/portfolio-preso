@@ -254,6 +254,7 @@ body {
 }
 .reveal .three-imgs img {
 	width: 26%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 	vertical-align: top;	
 }
 .reveal img.drop-shadow {
