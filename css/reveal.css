@@ -260,6 +260,10 @@ body {
 .reveal img.drop-shadow {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+.reveal .bg-color img {
+	background-color: #f3f3f3;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+}
 .reveal h1 {
 	font-family: 'Abril Fatface', cursive; 
 	margin-bottom: .4em;
